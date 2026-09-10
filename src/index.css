@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-serif-editorial {
+    font-family: 'Instrument Serif', Georgia, serif;
+  }
+  .font-sans-studio {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+:root {
+  --color-canvas: #FAF7F2;
+  --color-surface: #FFFFFF;
+  --color-surface-tint: #F4EFEA;
+  --color-charcoal: #1C1B19;
+  --color-terracotta: #C85A32;
+  --color-terracotta-hover: #AF4A24;
+  --color-terracotta-wash: #FBF2ED;
+  --color-olive: #4E5D4E;
+  --color-olive-wash: #F1F4F0;
+  --color-border: #E6DFD5;
+  --color-muted: #6B665E;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #FAF7F2;
+  color: #1C1B19;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
